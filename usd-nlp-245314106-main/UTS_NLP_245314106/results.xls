@@ -1,0 +1,18 @@
+Tahap,Eksperimen_Model,Preprocessing,Feature,Classifier,Accuracy,Macro-F1
+A,EXP-0,Lowercase + Whitespace,TF-IDF Unigram,Logistic Regression,0.8745454545454545,0.8428054868565069
+A,EXP-1,Normalisasi Kata Informal,TF-IDF Unigram,Logistic Regression,0.875,0.8431407032478825
+A,EXP-2,Normalisasi + Stopword Removal,TF-IDF Unigram,Logistic Regression,0.8722727272727273,0.8430284588920257
+A,EXP-2,Normalisasi + Stopword Removal,TF-IDF Unigram,Logistic Regression,0.8722727272727273,0.8430284588920257
+A,EXP-3,Normalisasi + Stemming,TF-IDF Unigram,Logistic Regression,0.8727272727272727,0.8391178296664185
+A,EXP-4,Normalisasi + Negation Handling,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+A,EXP-4,Normalisasi + Negation Handling,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+A,EXP-5 Unigram,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+A,EXP-5 Bigram,Normalisasi + Penanganan Negasi,TF-IDF Unigram + Bigram,Logistic Regression,0.89,0.842310136887524
+A,EXP-5 Unigram,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+A,EXP-5 Bigram,Normalisasi + Penanganan Negasi,TF-IDF Unigram + Bigram,Logistic Regression,0.89,0.842310136887524
+B,M1,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Multinomial Naive Bayes,0.8122727272727273,0.666380298812038
+B,M2,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+B,M3,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Linear SVM,0.9068181818181819,0.8748466021582826
+B,M1,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Multinomial Naive Bayes,0.8122727272727273,0.666380298812038
+B,M2,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Logistic Regression,0.895,0.8552816470606466
+B,M3,Normalisasi + Penanganan Negasi,TF-IDF Unigram,Linear SVM,0.9068181818181819,0.8748466021582826
